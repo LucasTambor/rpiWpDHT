@@ -1,0 +1,8 @@
+[Unit]
+Description=Thread DHT 
+
+[Service]
+ExecStart=/home/pi/unisal/atividades/threadDHT/thread_dht 
+
+[Install]
+WantedBy=multi-user.target
